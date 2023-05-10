@@ -13,4 +13,5 @@ Passionate about problem-solving, I thrive in a collaborative environment that v
 I look forward to discussing how my technical proficiency and innovative mindset would add value to your organization.
 
 Best regards,
+
 Vikas Kaushik
