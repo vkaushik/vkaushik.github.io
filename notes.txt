@@ -1,0 +1,16 @@
+<!-- 
+Health management provides a common set of integrated services with Babylonhealth to manage and track health.
+• Developed applica􏰂on Middle Layer from scratch including REST APIs, caching strategy, in-memory and asynchronous processing.
+• Significant contribu􏰂on in establishing the Agile process, development best prac􏰂ces and recruitments.
+
+Technology: C#, .Net, MS SQL, Windows, Linux, Perl
+• EnhancedETLmoduleandReportGenera􏰂onmodule.
+• Iwasresponsibleforendtoendenhancementoftwofinancial modules. Size of the project and very diverse flow of execu􏰂on made it challenging.
+• This is a Data Warehousing project in which report genera􏰂on is done a􏰀er complex ETL process. Data from flat files is being extracted, transformed and loaded to fact tables, then from aggregate fact tables to reports.
+
+Technology: C#, .Net, HTML, CSS, JS
+• Worked on mul􏰂ple projects for enhancements and maintenance in an agile environment in Banking Domain.
+• Quick Fix Tickets and need to understand requirements in a short 􏰂me made it challenging.
+• Projects Bucket: Modified Lockbox Management (MLB), Split funding (SF), Speed of Pay Project (SOP), Three Amex applica􏰂ons i.e. Project upli􏰀, NIT 2.0, ACH Gateway, BOP
+
+-->
