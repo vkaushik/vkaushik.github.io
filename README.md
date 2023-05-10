@@ -14,4 +14,3 @@ I look forward to discussing how my technical proficiency and innovative mindset
 
 Best regards,
 Vikas Kaushik
-
