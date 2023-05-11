@@ -251,24 +251,11 @@ main.paper .right-column p {
     font-weight: 600;
 }
 
-.item dl dt::after {
-    content: ": ";
-}
 
 .item dl dd {
     display: inline;
 }
 
-.item dl dd:not(:last-child)::after {
-    content: "";
-    display: block;
-    margin-bottom: 0.4em;
-}
-
-.item dl dd *:not(:last-child)::after {
-    content: " ; ";
-    margin-right: 0.25rem;
-}
 
 .item.group .item {
     margin-top: 0;
@@ -398,3 +385,22 @@ main.paper .left-column-page-2 {
 main.paper .right-column-page-2 {
     grid-area: 1/6/7/8;
 }
+
+.item dl dd {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px
+}
+
+.item dl dd > * {
+    display: inline;
+    padding: 1px 5px;
+    border: 1px solid #bababa;
+    border-radius: 6px;
+    color: #202020;
+}
+
+.item dl dt {
+    display: flex;
+    margin: 5px 0;
+ }
