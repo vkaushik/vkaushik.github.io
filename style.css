@@ -404,3 +404,7 @@ main.paper .right-column-page-2 {
     display: flex;
     margin: 5px 0;
  }
+
+.section-about p{
+    text-align: center;
+}
