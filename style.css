@@ -220,8 +220,8 @@ main.paper .right-column h3 {
 }
 
 main.paper .right-column p {
-    font-size: 0.8rem;
-    line-height: 1;
+    font-size: 0.88rem;
+    line-height: 1.1;
 }
 
 .section {
@@ -392,7 +392,7 @@ main.paper .right-column-page-2 {
     gap: 3px
 }
 
-.item dl dd > * {
+.item dl dd>* {
     display: inline;
     padding: 1px 5px;
     border: 1px solid #bababa;
@@ -403,8 +403,8 @@ main.paper .right-column-page-2 {
 .item dl dt {
     display: flex;
     margin: 5px 0;
- }
+}
 
-.section-about p{
+.section-about p {
     text-align: left;
 }
