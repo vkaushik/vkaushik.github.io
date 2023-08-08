@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background: #000;
+      }
+
+      #pongBoard {
+        position: relative;
+        height: 400px;
+        width: 600px;
+        margin: 20px auto;
+        background: #f00;
+        border: 1px solid #fff;
+      }
+
+      #paddle {
+        position: absolute;
+        bottom: 0;
+        height: 50px;
+        width: 100px;
+        background: #00f;
+        cursor: move;
+      }
+
+      #ball {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background: #0f0;
+        top: 50%;
+        left: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="pongBoard">
+      <div id="paddle"></div>
+      <div id="ball"></div>
+    </div>
+
+    <script>
+      var pongBoard = document.getElementById('pongBoard');
+      var paddle = document.getElementById('paddle');
+      var ball = document.getElementById('ball');
+      var pongBoardWidth = pongBoard.offsetWidth;
+      var pongBoardHeight = pongBoard.offsetHeight;
+      var paddleWidth = paddle.offsetWidth;
+      var ballWidth = ball.offsetWidth;
+      var ballHeight = ball.offsetHeight;
+      var ballDX = 2;
+      var ballDY = -2;
+      var ballX = pongBoardWidth / 2;
+      var ballY = pongBoardHeight / 2;
+
+      pongBoard.addEventListener('mousemove', function(e) {
+        var paddleX = e.pageX - pongBoard.offsetLeft - paddleWidth / 2;
+        paddleX = Math.max(paddleX, 0);
+        paddleX = Math.min(pongBoardWidth - paddleWidth, paddleX);
+        paddle.style.left = paddleX + 'px';
+      });
+
+      setInterval(function() {
+        ballX += ballDX;
+        ballY += ballDY;
+
+        if (ballX < 0 || ballX > pongBoardWidth - ballWidth) {
+          ballDX = -ballDX;
+        }
+
+        if (ballY < 0) {
+          ballDY = -ballDY;
+        } else if (ballY > pongBoardHeight - ballHeight) {
+          var paddleX = paddle.offsetLeft;
+          if (ballX + ballWidth > paddleX && ballX < paddleX + paddleWidth) {
+            ballDY = -ballDY;
+          } else {
+            ballX = pongBoardWidth / 2;
+            ballY = pongBoardHeight / 2;
+          }
+        }
+
+        ball.style.left = ballX + 'px';
+        ball.style.top = ballY + 'px';
+      }, 10);
+    </script>
+  </body>
+</html>

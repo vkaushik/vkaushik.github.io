@@ -1,24 +1,15 @@
 ## 💼 Resume - Vikas Kaushik 👨🏻‍💻
 
-Subject: Experienced Software Developer Seeking Innovative Challenges
+Subject: Experienced Software Developer seeking job opportunities
 
-Dear Recruiter,
+Hi,
 
+I’ve 10+ years of professional IT experience. I have successfully delivered enterprise-grade microservices, data-pipelines and APIs in a distributed multi-cloud environment with high scalability, reliability and availability requirements. I’ve set up projects from scratch, including project structure, unit tests, monitoring, CI/CD. I’m skilled in using Golang, Kubernetes, Docker, Kafka, Prometheus, Grafana, SRE, system design and data-structures.
 
+In my present role at Walmart, I’m a Sr. Software Engineer, in the SRE team where I architect and implement solutions that help product teams to monitor and set up alerts for their services, improving MTTD and MTTR in prod. During my tenure at ThoughtWorks, I led projects starting from inception, release planning and delivery with agile practices. I’ve been a backend software developer for the most part of my career. I value inclusivity, diversity, creativity and collaboration and I love to be among empathetic intellectuals.
 
-As a software developer with a decade of professtional IT experience, I offer an extensive background in developing scalable back-end systems, crafting enterprise micro-services, creating REST APIs, and managing front-end projects. Proficient in Golang, Kafka, Docker, Kubernetes, Git, and well-versed in Data Structures, Algorithms and System Design, I am confident in my ability to contribute effectively to your technical team.
-
-
-My experience spans leading roles at companies like Walmart and ThoughtWorks, where I was instrumental in designing and implementing various high-performing features in multi-cloud production environments. My expertise lies in ensuring high scalability, reliability, and availability in all projects I undertake.
-
-
-Passionate about problem-solving, I thrive in a collaborative environment that values creativity and intellectual empathy. I am excited to contribute to a team focused on leveraging technology for sustainable solutions.
+I’m looking forward to knowing more about this opportunity.
 
 
-I look forward to discussing how my technical proficiency and innovative mindset would add value to your organization.
-
-
-
-Best regards,
-
+Thanks,
 Vikas Kaushik
