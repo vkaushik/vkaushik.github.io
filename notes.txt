@@ -14,3 +14,5 @@ Technology: C#, .Net, HTML, CSS, JS
 • Projects Bucket: Modified Lockbox Management (MLB), Split funding (SF), Speed of Pay Project (SOP), Three Amex applica􏰂ons i.e. Project upli􏰀, NIT 2.0, ACH Gateway, BOP
 
 -->
+
+python3 -m http.server 8000
