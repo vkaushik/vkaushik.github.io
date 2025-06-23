@@ -408,3 +408,70 @@ main.paper .right-column-page-2 {
 .section-about p {
     text-align: left;
 }
+
+/* --- Cover Letter Single Column Layout --- */
+.cover-letter-single-column {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    padding: 2.5rem 2.2rem 2.5rem 2.2rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cover-letter-single-column header {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.cover-letter-single-column .avatar {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+.cover-letter-single-column .name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.cover-letter-single-column .tagline {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+.cover-letter-single-column .contact {
+    font-size: 0.98rem;
+    color: #444;
+}
+.cover-letter-single-column .section-cover-letter {
+    margin-top: 1.5rem;
+}
+.cover-letter-single-column p {
+    font-size: 1.02rem;
+    line-height: 1.7;
+    margin: 0.7rem 0;
+    text-align: justify;
+}
+.cover-letter-single-column img[alt="Signature"] {
+    height: 48px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+@media print {
+    .cover-letter-single-column {
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0.5in 0.5in;
+        min-height: unset;
+    }
+}
